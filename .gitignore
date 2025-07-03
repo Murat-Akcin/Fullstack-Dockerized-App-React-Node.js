@@ -1,0 +1,31 @@
+*.log
+*.tmp
+
+# Docker build cache / geçici build klasörleri
+**/docker-compose.override.yml
+**/Dockerfile.*
+**/build/
+**/tmp/
+
+# Docker container'larda oluşabilecek runtime dosyaları
+*.pid
+
+# .env dosyaları (ortam değişkenleri — hassas bilgi içerebilir!)
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+
+# Linux/Mac temporary files
+*.swp
+*~
+
+# Node.js varsa
+node_modules/
+
+# Python varsa
+__pycache__/
+*.py[cod]
+venv/
