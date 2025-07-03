@@ -11,9 +11,6 @@ project-root/
 ├── docker-compose.yml
 └── README.md
 
-markdown
-
-
 
 . Start the App
 
